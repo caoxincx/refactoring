@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefHeight="227.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="charpter08_organizate_data.ver06_duplicate_observed_data.after_refactor2.Controller">
+   <children>
+      <Text layoutX="37.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="开始" />
+      <Text layoutX="37.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="结束" />
+      <Text layoutX="37.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="长度" />
+      <TextField fx:id="startField" layoutX="76.0" layoutY="33.0" onMouseMoved="#startFieldMoved" />
+      <TextField fx:id="endField" layoutX="75.0" layoutY="84.0" onMouseMoved="#endFieldMoved" />
+      <TextField fx:id="lengthField" layoutX="73.0" layoutY="136.0" onMouseMoved="#lengthFieldMoved" />
+   </children>
+</Pane>
